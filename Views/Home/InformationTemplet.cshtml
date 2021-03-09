@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="~/css/CapstoneStyleSheet.css" rel="stylesheet" />
+    <title>Template</title>
+    <link id="littleLogo" rel="shortcut icon" href="~/Images/Logo.png" sizes="30x30" />
+</head>
+<body>
+    <a href="Index.cshtml"><div class="logo"><img src="~/Images/Logo.png" height="175" width="175" /></div></a>
+    <nav>
+        <ul>
+            <li><a href="Index.cshtml">Home</a></li>
+            <li><a href="Search.cshtml">Search</a></li>
+            <li><a href="About.cshtml">About</a></li>
+        </ul>
+    </nav>
+    <a href="Index.cshtml"><div class="title"><h1>Film Planet</h1></div></a>
+
+    <div class="genre"><h1>Film Title</h1></div>
+
+    <label class="idInfo">Genre: </label>
+    <br />
+    <br />
+    <label class="idInfo">Year Released: </label>
+    <br />
+    <br />
+    <label class="idInfo">Length: </label>
+    <br />
+    <br />
+    <label class="idInfo">Type of Film: </label>
+    <br />
+    <br />
+    <label class="idInfo">Director: </label>
+    <br />
+    <br />
+    <label class="idInfo">Writer: </label>
+
+    <div class="radLikDis">
+        <label><input id="Radio1" name="R1" type="radio" value="Like" />Like</label><label>&nbsp</label>
+        <label><input id="Radio2" name="R1" type="radio" value="Dislike" />Dislike</label><label>&nbsp</label>
+    </div>
+
+    <br />
+    <br />
+    <br />
+
+    <label class="idInfo">Want to comment on the film?</label>
+    <button class="btnComment">Comment!!</button>
+    <!--<input type='submit' value='Comment!!' />   -->
+    <br />
+    <br />
+
+    <!--Here is where I am going to ask Mark for help to add two buttons.
+        The first button will allow the comment section to apear if the user wants to comment
+        The second button will allow the user to submit the comment
+            The second button will have validation on words within comment section
+             appropriate and that the user enters a name-->
+    <!--Below is the code for the comment section-->
+    <!--<form method='post'>
+      Name: <input type='text' name='name' id='name' />
+
+      Comment: <textarea class="txtarComment" name="comment" id="comment"></textarea>
+
+     <input type='submit' value='Submit' />
+
+      <!--<textarea name='comment' id='comment' height="100" width=""></textarea><br />
+
+      <input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' />
+
+
+    </form>-->
+    <!--<br />
+    <br />-->
+
+</body>
+
+</html>
