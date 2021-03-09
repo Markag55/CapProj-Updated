@@ -16,18 +16,6 @@
 
 <body>
 
-    <a href="~Views/Home/Index.cshtml"><div class="logo"><img src="~/Images/Logo.png" height="175" width="175" /></div></a>
-    <!--height="175" width="175"-->
-    <nav>
-        <ul>
-            <li><a href="~/Home/Index.cshtml">Home</a></li>
-            <li><a href="~/Pages/Search.cshtml">Search</a></li>
-            <li><a href="~/Pages/About.cshtml">About</a></li>
-        </ul>
-    </nav>
-    <a href="~Views/Home/Index.cshtml"><div class="title"><h1>Film Planet</h1></div></a>
-
-
 
 
     <div class="container">
@@ -35,12 +23,12 @@
 
         <form id="form1" runat="server" class="form-horizontal" role="form">
 
-            @*<label>&nbsp</label>
             <label>&nbsp</label>
             <label>&nbsp</label>
             <label>&nbsp</label>
             <label>&nbsp</label>
-            <label>&nbsp</label>*@
+            <label>&nbsp</label>
+            <label>&nbsp</label>
 
             <div class="row" id="boxes">
                 <div class="col-md-6">
@@ -56,108 +44,108 @@
                         Animation
                     </a>
 
-                    @*<label>&nbsp</label>
                     <label>&nbsp</label>
                     <label>&nbsp</label>
                     <label>&nbsp</label>
                     <label>&nbsp</label>
-                    <label>&nbsp</label>*@
+                    <label>&nbsp</label>
+                    <label>&nbsp</label>
 
                     <div class="col-md-12" id="divComedy">
-                        <a href="Comedy.cshtml">
+                        <a asp-controller="Home" asp-action="Comedy">
                             <img src="~/Images/comedy.jpg" height="200" width="350" />
                         </a>
 
                     </div>
 
-                    <a href="Comedy.cshtml">
-                        <asp:Label ID="lblComedy" runat="server" Text="Comedy" CssClass="labels"></asp:Label>
+                    <a asp-controller="Home" asp-action="Comedy">
+                        Comedy
                     </a>
 
                 </div>
 
-                @*<label>&nbsp</label>
                 <label>&nbsp</label>
                 <label>&nbsp</label>
                 <label>&nbsp</label>
                 <label>&nbsp</label>
-                <label>&nbsp</label>*@
+                <label>&nbsp</label>
+                <label>&nbsp</label>
 
 
                 <div class="col-md-6">
                     <div class="col-md-12" id="divDrama">
-                        <a href="Drama.cshtml">
+                        <a asp-controller="Home" asp-action="Drama">
                             <img src="~/Images/drama.jpg" height="200" width="350" />
                         </a>
                     </div>
 
-                    <a href="Drama.cshtml">
-                        <asp:Label ID="lblDrama" runat="server" Text="Drama" CssClass="labels"></asp:Label>
+                    <a asp-controller="Home" asp-action="Drama">
+                        Drama
                     </a>
 
-                    @*<label>&nbsp</label>
                     <label>&nbsp</label>
                     <label>&nbsp</label>
                     <label>&nbsp</label>
                     <label>&nbsp</label>
-                    <label>&nbsp</label>*@
+                    <label>&nbsp</label>
+                    <label>&nbsp</label>
 
                     <div class="col-md-12" id="divHorror">
-                        <a href="Horror.cshtml">
+                        <a asp-controller="Home" asp-action="Horror">
                             <img src="~/Images/horror.jpg" height="200" width="350" />
                         </a>
                     </div>
 
-                    <a href="Horror.cshtml">
-                        <asp:Label ID="lblHorror" runat="server" Text="Horror" CssClass="labels"></asp:Label>
+                    <a asp-controller="Home" asp-action="Horror">
+                        Horror
                     </a>
 
                 </div>
 
-                @*<label>&nbsp</label>
                 <label>&nbsp</label>
                 <label>&nbsp</label>
                 <label>&nbsp</label>
                 <label>&nbsp</label>
-                <label>&nbsp</label>*@
+                <label>&nbsp</label>
+                <label>&nbsp</label>
 
 
 
                 <div class="col-md-6">
                     <div class="col-md-12" id="divSciFi">
-                        <a href="SciFi.cshtml">
+                        <a asp-controller="Home" asp-action="SciFi">
                             <img src="~/Images/scifi.jpg" height="200" width="350" />
                         </a>
                     </div>
 
-                    <a href="SciFi.cshtml">
-                        <asp:Label ID="Label3" runat="server" Text="SciFi" CssClass="labels"></asp:Label>
+                    <a asp-controller="Home" asp-action="SciFi">
+                        SciFi
                     </a>
 
-                    @*<label>&nbsp</label>
                     <label>&nbsp</label>
                     <label>&nbsp</label>
                     <label>&nbsp</label>
                     <label>&nbsp</label>
-                    <label>&nbsp</label>*@
+                    <label>&nbsp</label>
+                    <label>&nbsp</label>
 
                     <div class="col-md-12" id="divRomance">
-                        <a href="Romance.cshtml">
+                        <a asp-controller="Home" asp-action="Romance">
                             <img src="~/Images/romance.jpg" height="200" width="350" />
                         </a>
                     </div>
 
-                    <a href="Romance.cshtml">
-                        <asp:Label ID="Label4" runat="server" Text="Romance" CssClass="labels"></asp:Label>
+                    <a asp-controller="Home" asp-action="Romance">
+                        Romance
                     </a>
 
                 </div>
-                @*<label>&nbsp</label>
                 <label>&nbsp</label>
                 <label>&nbsp</label>
                 <label>&nbsp</label>
                 <label>&nbsp</label>
-                <label>&nbsp</label>*@
+                <label>&nbsp</label>
+                <label>&nbsp</label>
             </div>
         </form>
 

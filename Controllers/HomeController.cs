@@ -19,15 +19,49 @@ namespace CapProj_Updated_.Controllers
         }
 
         [HttpGet]
-        public IActionResult Animation()
-        {
-            return View();
-        }
-
         public IActionResult Index()
         {
             return View();
         }
+        public IActionResult Animation()
+        {
+            return View();
+        }
+        public IActionResult Comedy()
+        {
+            return View();
+        }
+
+        public IActionResult Drama()
+        {
+            return View();
+        }
+
+        public IActionResult Horror()
+        {
+            return View();
+        }
+
+        public IActionResult Romance()
+        {
+            return View();
+        }
+
+        public IActionResult SciFi()
+        {
+            return View();
+        }
+
+        public IActionResult Search()
+        {
+            return View();
+        }
+
+        public IActionResult About()
+        {
+            return View();
+        }
+
 
         public IActionResult Privacy()
         {
